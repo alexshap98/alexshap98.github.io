@@ -10,17 +10,19 @@ head{
 
 body{
   text-align: center;
-  background-color:blue;
+  background-color:yellow;
 
 }
 
 ul{
-  text-align: center;
-
+  text-align: left;
+  font-size: 20
 }
 
 h1{
     text-align: center;
-    text-decoration-color: blue;
-    background-color:blue;
+    text-color: yellow;
+    background-color:green;
+    font-family: cursive;
+
 }
