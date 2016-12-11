@@ -12,7 +12,7 @@ head{
 body{
   text-align: center;
   background-color:yellow;
-
+  position: fixed;
 }
 
 ul{
