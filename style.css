@@ -6,6 +6,7 @@ p {
 
 head{
   text-align: center;
+  text-color: white;
 }
 
 body{
@@ -21,7 +22,8 @@ ul{
 
 h1{
     text-align: center;
-    text-color: yellow;
+    text-color: white;
+
     background-color:green;
     font-family: cursive;
 
