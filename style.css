@@ -1,7 +1,11 @@
 p {
-    color: green !important;
+    text-color: #4DB6AC;
     font-size: 20px;
     text-align: center;
+}
+a{
+    font-size: 50;
+
 }
 
 head{
@@ -11,20 +15,24 @@ head{
 
 body{
   text-align: center;
-  background-color:yellow;
-  position:relative;
+  background-color:#00BCD4;
+  position:inherit;
 }
 
 ul{
-  text-align: left;
+  text-align: center;
+  list-style-type: none;
   font-size: 20
+}
+li{
+    text-align: center;
 }
 
 h1{
     text-align: center;
     text-color: white;
 
-    background-color:green;
+    background-color:#4DB6AC;
     font-family: cursive;
 
 }
