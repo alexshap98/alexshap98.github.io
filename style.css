@@ -1,3 +1,6 @@
+html{
+    position: fixed;
+}
 p {
     text-color: #4DB6AC;
     font-size: 20px;
