@@ -11,12 +11,13 @@ a{
 head{
   text-align: center;
   text-color: white;
+
 }
 
 body{
   text-align: center;
   background-color:#00BCD4;
-  position:inherit;
+  position:fixed;
 }
 
 ul{
