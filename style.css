@@ -17,7 +17,7 @@ head{
 body{
   text-align: center;
   background-color:#00BCD4;
-  position:fixed;
+  position:sticky;
 }
 
 ul{
