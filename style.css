@@ -17,7 +17,7 @@ head{
 body{
   text-align: center;
   background-color:#00BCD4;
-  position:sticky;
+  /*position:sticky;*/
 }
 
 ul{
