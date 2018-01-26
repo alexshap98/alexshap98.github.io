@@ -1,0 +1,45 @@
+html{
+    overflow-x:hidden;
+}
+p {
+    text-color: #4DB6AC;
+    font-size: 20px;
+    text-align: center;
+}
+a{
+    font-size: 50;
+
+}
+
+head{
+  text-align: center;
+  text-color: white;
+
+}
+
+body{
+  text-align: center;
+  background-color:#00BCD4;
+  /*position:sticky;*/
+}
+
+ul{
+  text-align: center;
+  list-style-type: none;
+  font-size: 22px;
+  font-style: oblique;
+}
+li{
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+}
+
+h1{
+    text-align: center;
+    text-color: white;
+
+    background-color:#4DB6AC;
+    font-family: cursive;
+
+}

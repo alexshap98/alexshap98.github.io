@@ -1,0 +1,135 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Sudoku Game</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="sudoku.js"></script>
+</head>
+<body>
+    <div class="row">
+        <div class="column left">
+            Rules:
+            <ul>
+                <li> Every row has the numbers 1 through 9 </li>
+                <li> Every column has the numbers 1 through 9 </li>
+                <li> Every square has the numbers 1 through 9 </li>
+            </ul>
+        </div>
+
+        <div class="column middle">
+            <span id ="board">
+                <input class="box row1 col1" id="11" type="integer">
+                <input class="box row1 col2" id="12" type="integer">
+                <input class="box row1 col3" id="13" type="integer">
+                <input class="box row1 col4" id="14" type="integer">
+                <input class="box row1 col5" id="15" type="integer">
+                <input class="box row1 col6" id="16" type="integer">
+                <input class="box row1 col7" id="17" type="integer">
+                <input class="box row1 col8" id="18" type="integer">
+                <input class="box row1 col9" id="19" type="integer">
+                <br>
+                <input class="box row2 col1" id="21" type="integer">
+                <input class="box row2 col2" id="22" type="integer">
+                <input class="box row2 col3" id="23" type="integer">
+                <input class="box row2 col4" id="24" type="integer">
+                <input class="box row2 col5" id="25" type="integer">
+                <input class="box row2 col6" id="26" type="integer">
+                <input class="box row2 col7" id="27" type="integer">
+                <input class="box row2 col8" id="28" type="integer">
+                <input class="box row2 col9" id="29" type="integer">
+                <br>
+                <input class="box row3 col1" id="31" type="integer">
+                <input class="box row3 col2" id="32" type="integer">
+                <input class="box row3 col3" id="33" type="integer">
+                <input class="box row3 col4" id="34" type="integer">
+                <input class="box row3 col5" id="35" type="integer">
+                <input class="box row3 col6" id="36" type="integer">
+                <input class="box row3 col7" id="37" type="integer">
+                <input class="box row3 col8" id="38" type="integer">
+                <input class="box row3 col9" id="39" type="integer">
+                <br>
+                <input class="box row4 col1" id="41" type="integer">
+                <input class="box row4 col2" id="42" type="integer">
+                <input class="box row4 col3" id="43" type="integer">
+                <input class="box row4 col4" id="44" type="integer">
+                <input class="box row4 col5" id="45" type="integer">
+                <input class="box row4 col6" id="46" type="integer">
+                <input class="box row4 col7" id="47" type="integer">
+                <input class="box row4 col8" id="48" type="integer">
+                <input class="box row4 col9" id="49" type="integer">
+                <br>
+                <input class="box row5 col1" id="51" type="integer">
+                <input class="box row5 col2" id="52" type="integer">
+                <input class="box row5 col3" id="53" type="integer">
+                <input class="box row5 col4" id="54" type="integer">
+                <input class="box row5 col5" id="55" type="integer">
+                <input class="box row5 col6" id="56" type="integer">
+                <input class="box row5 col7" id="57" type="integer">
+                <input class="box row5 col8" id="58" type="integer">
+                <input class="box row5 col9" id="59" type="integer">
+                <br>
+                <input class="box row6 col1" id="61" type="integer">
+                <input class="box row6 col2" id="62" type="integer">
+                <input class="box row6 col3" id="63" type="integer">
+                <input class="box row6 col4" id="64" type="integer">
+                <input class="box row6 col5" id="65" type="integer">
+                <input class="box row6 col6" id="66" type="integer">
+                <input class="box row6 col7" id="67" type="integer">
+                <input class="box row6 col8" id="68" type="integer">
+                <input class="box row6 col9" id="69" type="integer">
+                <br>
+                <input class="box row7 col1" id="71" type="integer">
+                <input class="box row7 col2" id="72" type="integer">
+                <input class="box row7 col3" id="73" type="integer">
+                <input class="box row7 col4" id="74" type="integer">
+                <input class="box row7 col5" id="75" type="integer">
+                <input class="box row7 col6" id="76" type="integer">
+                <input class="box row7 col7" id="77" type="integer">
+                <input class="box row7 col8" id="78" type="integer">
+                <input class="box row7 col9" id="79" type="integer">
+                <br>
+                <input class="box row8 col1" id="81" type="integer">
+                <input class="box row8 col2" id="82" type="integer">
+                <input class="box row8 col3" id="83" type="integer">
+                <input class="box row8 col4" id="84" type="integer">
+                <input class="box row8 col5" id="85" type="integer">
+                <input class="box row8 col6" id="86" type="integer">
+                <input class="box row8 col7" id="87" type="integer">
+                <input class="box row8 col8" id="88" type="integer">
+                <input class="box row8 col9" id="89" type="integer">
+                <br>
+                <input class="box row9 col1" id="91" type="integer">
+                <input class="box row9 col2" id="92" type="integer">
+                <input class="box row9 col3" id="93" type="integer">
+                <input class="box row9 col4" id="94" type="integer">
+                <input class="box row9 col5" id="95" type="integer">
+                <input class="box row9 col6" id="96" type="integer">
+                <input class="box row9 col7" id="97" type="integer">
+                <input class="box row9 col8" id="98" type="integer">
+                <input class="box row9 col9" id="99" type="integer">
+            </span>
+            <br><br>
+
+        </div>
+        <div class="column right">
+            <button id="easy"> Easy </button>
+            <button id="medium"> Medium </button>
+            <button id="hard"> Hard </button>
+            <br><br><br>
+            <button id="note"> Toggle Note Mode </button>
+            <br><br><br>
+            <span id= "strikes">
+                Strikes:
+
+                <span class=strikebox><span class = "strike" id="strike1">X</span></span>
+                <span class=strikebox><span class = "strike" id="strike2">X</span></span>
+                <span class=strikebox><span class = "strike" id="strike3">X</span></span>
+            </span>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+.column {
+    float: left;
+    margin: 0px
+
+}
+
+.left, .right {
+    width: 25%;
+}
+
+.middle {
+    width: 50%;
+}
+#board{
+    font-size: 0;
+    float: middle;
+}
+.box {
+    font-size: 30px;
+    text-align: center;
+    width: 4vw;
+    height: 4vw;
+    border-width: thin;
+    margin: 0px;
+    border-color: black;
+    float: left;
+}
+ #board {
+     margin: auto;
+ }
+ .row1, .row4, .row7{
+     border-top-width: thick;
+ }
+ .row9{
+     border-bottom-width: thick;
+ }
+ .col1, .col4, .col7{
+     border-left-width: thick;
+ }
+ .col9{
+     border-right-width: thick;
+     float: none;
+ }
+ul{
+    color: red;
+}
+#strikes{
+    width: 1000px;
+    height: 300px;
+}
+.strikebox{
+    border-style: solid;
+    width: 200px;
+    height: 200px;
+}
+.strike{
+    visibility: hidden;
+}
